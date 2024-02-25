@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "music-recommendations"
+version = "0.1.0"
+description = ""
+authors = ["Sean Cooper <scooper@adaptavist.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.12"
+tensorflow = "^2.15.0"
+librosa = "^0.10.1"
+numpy = "^1.26.4"
+scipy = "^1.12.0"
+matplotlib = "^3.8.3"
+tensorflow-decision-forests = "^1.8.1"
+seaborn = "^0.13.2"
+sns = "^0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
