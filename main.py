@@ -386,6 +386,8 @@ if __name__ == '__main__':
                     palette=sns.color_palette("hls", 10),
                     data=df).set(title="Iris data T-SNE projection")
 
+    plt.show()
+
     knn = NearestNeighbors(n_neighbors=25)
     knn.fit(feature_data["features"])
     neighbours = knn.kneighbors([feature_data["features"][250]], return_distance=False)
